@@ -22,9 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El ecosistema de innovación en Colombia, integra sectores claves, actores gubernamentales, universidades y empresas, impulsando la competitividad mediante políticas públicas, herramientas de gestión y transferencia tecnológica. Los modelos de negocio innovadores, transforman sectores sociales y tecnológicos con estrategias disruptivas y sostenibles. Con una visión integral, el país fortalece capacidades internas, fomenta la colaboración y aprovecha tendencias globales para generar valor.
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold  "La innovación es el puente hacia un futuro sostenible y competitivo; aprovecha cada oportunidad para cruzarlo".
-              
+              p.descripcion.mb-4 La unidad aborda la evaluación de proyectos de investigación e innovación, el emprendimiento de base tecnológica y su impacto social y de mercado. Destaca la importancia de metodologías específicas para medir el impacto, indicadores claves de desempeño y gestión de riesgos. Asimismo, explora el ecosistema de emprendimiento tecnológico en Colombia, los modelos de negocio adaptativos y las fuentes de financiación disponibles. Finalmente, analiza la evaluación de impacto social y sostenibilidad, subrayando la necesidad de enfoques integrales y participativos para maximizar los beneficios en las comunidades y promover el desarrollo sostenible.
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto
