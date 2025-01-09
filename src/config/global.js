@@ -40,6 +40,30 @@ export default {
         ],
       },
       {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo:
+          'Evaluación del impacto de la investigación e innovación en la sociedad y el mercado',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo:
+              'Fundamentos evaluación de impacto de la investigación e innovación',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo:
+              'Indicadores de impacto, según la OCDE: innovación responsable y sostenibilidad',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',
         desarrolloContenidos: true,
