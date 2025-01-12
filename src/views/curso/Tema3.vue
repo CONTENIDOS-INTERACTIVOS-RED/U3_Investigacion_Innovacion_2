@@ -18,7 +18,7 @@
             p.my-4 Lo invitamos a escuchar el siguiente pódcast, para estudiar la temática.
             TarjetaAudio.bg-white.mb-3(
               texto="Impacto de la investigación y la innovación en la sociedad: una visión integral"
-              :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('../../assets/componentes/audios/impacto_investigacion_innovacion.mp3')"
             )
           .col-sm-12.col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/t3/2.svg')
