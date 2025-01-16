@@ -143,6 +143,14 @@
               h5 Recolección de datos
               p Utilizar fuentes primarias y secundarias, incluyendo entrevistas, encuestas y estadísticas.
 
+          // Análisis
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.d-none.d-lg-block
+                img(src='@/assets/curso/t1/14.png', alt='')
+            .col-sm-12.col-lg-7
+              h5 Análisis
+              p Aplicar herramientas como el análisis FODA y métricas específicas,, para evaluar el impacto.
+
           // Implementación de ajustes
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.d-none.d-lg-block
@@ -225,8 +233,7 @@
                   .row.justify-content-center
                     .col-8.col-md-4.mb-4.d-none.d-lg-block
                       img(src='@/assets/curso/t1/19.svg' alt='Indicador de patentes')
-                    h4.text-center Cantidad de patentes registradas
-                    p.mb-0.text-center.
+                    h4.text-center Cantidad de patentes registradas.
 
               // Nivel de satisfacción
               .row.py-4.px-3.h-100
@@ -235,7 +242,7 @@
                     .col-8.col-md-4.mb-4.d-none.d-lg-block
                       img(src='@/assets/curso/t1/20.svg' alt='Indicador de satisfacción')
                     h4.text-center Nivel de satisfacción de los usuarios
-                    p.mb-0.text-center Con las innovaciones implementadas
+                    p.mb-0.text-center Con las innovaciones implementadas.
         p.mb-0 Las organizaciones han adaptado sus KPI para reflejar las características del ecosistema de innovación nacional. Según el Ministerio de Ciencia, Tecnología e Innovación, empresas colombianas integran indicadores que miden:
           
     .row.justify-content-center.mb-5(data-aos='fade-up')
@@ -356,7 +363,7 @@
                 h3.mb-1 Reflexión teórica acerca de los criterios de evaluación para proyectos de investigación, desarrollo e innovación. 
                 p.mb-0 Para ampliar los conocimientos sobre evaluación de proyectos, se recomienda consultar los siguientes recursos:
               .col-sm-auto
-                a.boton.color-acento-botones(href='https://www.youtube.com/watch?v=ECEyS3TfVT8' target='_blank')
+                a.boton.color-acento-botones(href='https://www.redalyc.org/journal/870/87070383002/html/' target='_blank')
                   span Ir al sitio
                   i.fas.fa-arrow-right
     h2.mb-3(data-aos='fade-up') Gestión de riesgos en proyectos innovadores

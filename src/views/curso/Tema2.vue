@@ -50,23 +50,20 @@
               li.mb-0.d-flex
                 .lista-ol--cuadro__vineta
                   span 1
-                p.mb-0 Instituciones gubernamentales: MinCiencias, iNNpulsa.
+                p.mb-0 Largos ciclos de desarrollo.
               li.mb-0.d-flex
                 .lista-ol--cuadro__vineta
                   span 2
-                p.mb-0 Entidades financieras: Bancóldex, fondos de capital privado.
+                p.mb-0 Altos requerimientos de inversión en I+D.
               li.mb-0.d-flex
                 .lista-ol--cuadro__vineta
                   span 3
-                p.mb-0 Universidades y centros de investigación.
+                p.mb-0 Necesidad de protección de propiedad intelectual.
               li.mb-0.d-flex
                 .lista-ol--cuadro__vineta
                   span 4
-                p.mb-0 Incubadoras y aceleradoras de empresas.
-              li.mb-0.d-flex
-                .lista-ol--cuadro__vineta
-                  span 5
-                p.mb-0 Redes de mentores y expertos.
+                p.mb-0 Validación técnica y comercial.
+              
           .col-sm-12.col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/t2/3.svg', alt='')
 
