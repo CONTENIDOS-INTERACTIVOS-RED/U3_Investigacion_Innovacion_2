@@ -107,7 +107,7 @@
               h2.mb-4(data-aos="flip-up") Métrica de velocidad del equipo
               p.mb-4(data-aos="fade-right") En el PDF Métrica de velocidad del equipo, se analiza en detalle cómo esta medida, expresada en story points, facilita la planificación realista, el seguimiento del desempeño y la mejora continua en marcos como Scrum. A través de ejemplos prácticos y recomendaciones, se presentan los usos adecuados de esta métrica para fortalecer la autonomía del equipo y la previsibilidad del desarrollo.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -320,7 +320,7 @@
               h2.mb-4(data-aos="flip-up") KPIs ágiles: cómo medir el progreso y la mejora continua
               p.mb-4(data-aos="fade-right") En el PDF KPIs ágiles, se presentan indicadores claves que permiten evaluar la entrega de valor, la eficiencia del equipo y la satisfacción del cliente, alineados con los principios de colaboración y adaptabilidad. A través de ejemplos y recomendaciones, se ofrece una guía práctica para implementar estos KPIs como herramientas que impulsan la mejora continua y el desarrollo sostenible del producto.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
