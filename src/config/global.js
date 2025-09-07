@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '3',
-    tituloUnidad: 'Impacto de la investigación e innovación',
+    tituloUnidad: 'Mejora continua y retrospectivas',
   },
   menuPrincipal: {
     menu: [
@@ -15,27 +15,65 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Evaluación de proyectos de investigación-innovación',
+        titulo: 'Técnicas de retrospección efectiva',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Propósito y valor de las retrospectivas en Scrum',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Estructura básica de una sesión de retrospectiva',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Técnicas dinámicas para retrospectivas',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Buenas prácticas para facilitar retrospectivas eficaces',
+            hash: 't_1_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Proceso emprendedor en empresas de base tecnológica',
+        titulo: 'Indicadores de mejora',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Fundamentos del emprendimiento de base tecnológica',
+            titulo: 'Definición y utilidad de los indicadores ágiles',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Ecosistema de emprendimiento tecnológico en Colombia',
+            titulo: 'Métrica de velocidad del equipo',
             hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Indicadores de calidad: defectos y deuda técnica',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'KPIs ágiles: cómo medir el progreso y la mejora continua',
+            hash: 't_2_4',
           },
         ],
       },
@@ -43,23 +81,33 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo:
-          'Evaluación del impacto de la investigación e innovación en la sociedad y el mercado',
+        titulo: 'Implementación de feedback continuo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Fundamentos evaluación de impacto de la investigación e innovación',
+            titulo: 'Cultura de retroalimentación en equipos ágiles',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo:
-              'Indicadores de impacto, según la OCDE: innovación responsable y sostenibilidad',
+            titulo: 'Tipos de feedback',
             hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Técnicas para brindar y recibir feedback eficaz',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo:
+              'Integración del feedback en la mejora del producto y del equipo',
+            hash: 't_3_4',
           },
         ],
       },
@@ -101,196 +149,141 @@ export default {
   referencias: [
     {
       referencia:
-        'Albornoz, M. (2009). Alcances y limitaciones de la noción de impacto social de la ciencia y la tecnología. Red Revista Iberoamericana de Ciencia, Tecnología y Sociedad - CTS.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/22697?page=1',
+        'Heras del Dedo, R. D. L. & Álvarez García, A. (2017). Métodos ágiles: Scrum, Kanban, Lean. Difusora Larousse - Anaya Multimedia.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/122933',
     },
     {
       referencia:
-        'Boada, A. J. & Vahos Zuleta, F. C. (2021). Matemáticas financieras y evaluación gerencial de proyectos: conceptos básicos para la toma de decisiones de inversión. Fondo Editorial CEIPA.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/217718?page=1',
+        'De Zunzunegui, A. (2023). Gestión de proyectos en AGILE: cómo utilizar las metodologías ágiles para mejorar tu capacidad de respuesta y lanzar proyectos de éxito. LID Editorial España.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/270594',
     },
     {
       referencia:
-        'Boero, C. (2020). Evaluación de proyectos. Jorge Sarmiento Editor - Universitas.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/172500?page=1',
+        'Monte Galiano, J. (2016). Implantar scrum con éxito. Editorial UOC.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/58575',
     },
     {
       referencia:
-        'Lira Briceño, P. (2020). Evaluación de proyectos de inversión: guía teórica y práctica. Universidad Peruana de Ciencias Aplicadas (UPC).',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/172630?page=1',
+        'Brunetta, H. (2023). OKRs y métricas de negocios: metodologías ágiles para resultados exitosos. Pluma Digital Ediciones.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/231789',
     },
     {
       referencia:
-        'Pacheco Coello, C. E. (2021). Metodología en casos reales de evaluación de proyectos. Instituto Mexicano de Contadores Públicos.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/174907?page=1',
+        "Roncancio, G. (s.f.). Indicadores de Gestión (KPI's): Tipos y Ejemplos. Pensemos.",
+      link:
+        'https://gestion.pensemos.com/indicadores-de-gestion-tipos-y-ejemplos',
     },
     {
       referencia:
-        'Rojas García, J. A. & Moore Torres, R. K. (2024). Emprendimiento digital: herramientas y metodologías aplicadas para pymes. Universidad Peruana de Ciencias Aplicadas (UPC).',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/257888?page=1',
+        'Castillo, A. (2010). Conceptualización del proceso de implementación de software: perspectivas ágil y disciplinada. Revista Ciencia e Ingeniería, 31(3).',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/17741',
     },
     {
       referencia:
-        'Rus, G. D. (2021). Análisis coste-beneficio: evaluación económica de políticas públicas y proyectos de inversión (4a ed.). Antoni Bosch editor.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/189595?page=1',
-    },
-    {
-      referencia:
-        'Crespo-Martínez, E., Crespo-Merchán, M. & Erazo Garzón, L. (2018). Memorias: XIV Foro Internacional del Emprendedor: emprendimientos de base tecnológica y valor agregado. Universidad del Azuay.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/233830?page=1',
-    },
-    {
-      referencia:
-        'Bradford Sicard, H. J. & Aristizábal Ospina, J. D. (2021). Impacto latino: casos de emprendedores sociales que están creando soluciones para transformar América Latina. Colegio de Estudios Superiores de Administración - CESA.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/222494?page=1',
-    },
-    {
-      referencia:
-        'Corona Treviño, L. (2021). Emprendimientos, financiamiento y legislación. Editorial Miguel Angel Porrúa.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/191643',
-    },
-    {
-      referencia:
-        'Elson, C. (2021). Nuevos modelos de negocio: emprendimiento en la era de la tecnología. Editorial UOC.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/209985?page=1',
-    },
-    {
-      referencia:
-        'Farfan Juanias, O. & Pérez Navarrate, K. L. (2020). Metodologías innovadoras para el diseño de nuevos proyectos de Emprendimiento de Base Tecnológica (EBT). Mare Ingenii. Ingenierías, 2(1), pp. 27-46.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/172399?page=5',
-    },
-    {
-      referencia:
-        'Aragón, J. & Amar Amar, J. J. (2024). Formulación de proyectos sociales en salud y gestión de riesgo: experiencias del Centro de Investigaciones en Desarrollo Humano. Universidad del Norte.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/273676?page=1',
-    },
-    {
-      referencia:
-        'Luis Villaveces, J. (2009). ¿Cómo medir el impacto de las políticas de ciencia y tecnología? Red Revista Iberoamericana de Ciencia, Tecnología y Sociedad - CTS.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/22698?page=8',
-    },
-    {
-      referencia:
-        'Mongui Pimentel, J., Yepes González, E. G., & Baquero Guerrero, E. L. (2023). Una mirada al emprendimiento social en Colombia. Corporación Universitaria Minuto de Dios.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/232108?page=1',
-    },
-    {
-      referencia:
-        'Rodríguez Gallardo, E. T., Aza Arroyo, E. I. & Niño Ramírez, M. F. (2023). Economía circular y negocios verdes, una propuesta diferente para emprender. Corporación Universitaria Minuto de Dios.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/274554?page=1',
+        'Serrano Junco, C. L. (2022). Metodologías ágiles en las pymes: un modelo integral de auditoría en la gestión interna. Corporación Universitaria Minuto de Dios.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/231777',
     },
   ],
   glosario: [
     {
-      termino: 'AHP',
+      termino: '4Ls (Liked, Learned, Lacked, Longed for)',
       significado:
-        'Proceso Analítico Jerárquico - <i>Analytic Hierarchy Process</i>: metodología estructurada para la toma de decisiones complejas que permite considerar múltiples criterios y alternativas de manera sistemática.',
+        'Técnica de retrospectiva que permite explorar aspectos emocionales y cognitivos de la experiencia del Sprint.',
     },
     {
-      termino: 'Apps.co',
+      termino: 'Cultura de retroalimentación',
       significado:
-        'Programa del Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia, orientado al desarrollo de emprendimientos digitales.',
+        'Ambiente organizacional que promueve la comunicación abierta, honesta y frecuente como base para el crecimiento del equipo.',
     },
     {
-      termino: 'Bancóldex',
+      termino: 'Defectos',
       significado:
-        'Banco de Desarrollo Empresarial de Colombia, que ofrece líneas de crédito especializadas para empresas innovadoras.',
+        'Errores o fallos en el software que afectan su correcto funcionamiento y deben ser corregidos.',
     },
     {
-      termino: 'EBT',
+      termino: 'Deuda técnica',
       significado:
-        'Empresas de Base Tecnológica: organizaciones que fundamentan la actividad empresarial en la aplicación sistemática de conocimientos científicos y tecnológicos.',
+        'Acumulación de decisiones subóptimas en el código o diseño que pueden afectar la calidad y el mantenimiento del producto.',
     },
     {
-      termino: 'ELECTRE',
+      termino: 'Facilitador',
       significado:
-        'Metodología de análisis multicriterio, utilizada para la toma de decisiones que considera múltiples alternativas y criterios.',
+        'Persona que guía las retrospectivas para asegurar que sean productivas y colaborativas, sin influir en el contenido discutido.',
     },
     {
-      termino: 'I+D+i',
+      termino: 'Feedback',
       significado:
-        'Investigación, Desarrollo e innovación: conjunto de actividades que combinan la investigación científica, el desarrollo tecnológico y la innovación empresarial.',
+        'Retroalimentación que permite mejorar procesos, relaciones o productos a través de la comunicación constructiva.',
     },
     {
-      termino: 'iNNpulsa',
+      termino: 'Feedback diferido',
       significado:
-        'Agencia de emprendimiento e innovación del Gobierno Nacional de Colombia, que promueve el desarrollo empresarial.',
+        'Retroalimentación que se proporciona después de cierto tiempo, generalmente en sesiones estructuradas como retrospectivas.',
     },
     {
-      termino: 'IoT',
+      termino: 'Feedback inmediato',
       significado:
-        '<i>Internet of Things</i> - Internet de las cosas: tecnología que permite la interconexión digital de objetos cotidianos con Internet.',
+        'Retroalimentación que se brinda en el momento en que ocurre una situación, útil para corregir o reforzar conductas rápidamente.',
     },
     {
-      termino: 'KPI',
+      termino: 'Indicador ágil',
       significado:
-        '<i>Key Performance Indicator</i> - Indicador Clave de Desempeño: métricas utilizadas para evaluar el éxito y el progreso en el logro de objetivos específicos.',
+        'Métrica que permite evaluar el rendimiento, la calidad y el avance del equipo en un proyecto ágil.',
     },
     {
-      termino: '<i>Lean Startup</i>',
+      termino: 'KPI (Key Performance Indicator)',
       significado:
-        'Metodología para desarrollar negocios y productos que busca acortar los ciclos de desarrollo mediante la experimentación e iteración continua.',
+        'Indicador clave de rendimiento utilizado para medir el progreso y éxito de los objetivos estratégicos del equipo o proyecto.',
     },
     {
-      termino: 'MinCiencias',
+      termino: 'Mad-Sad-Glad',
       significado:
-        'Ministerio de Ciencia, Tecnología e Innovación de Colombia.',
+        'Técnica visual que permite al equipo expresar emociones relacionadas con lo ocurrido durante el Sprint.',
     },
     {
-      termino: 'MinTIC',
+      termino: 'Mejora continua',
       significado:
-        'Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia.',
+        'Filosofía de trabajo centrada en revisar y ajustar procesos para aumentar la eficiencia y la calidad con el tiempo.',
     },
     {
-      termino: 'MVP',
+      termino: 'Mejora del producto',
       significado:
-        '<i>Minimum Viable Product</i> - Producto Mínimo Viable - PMV: primera versión de un producto que permite obtener retroalimentación temprana de los usuarios con el mínimo esfuerzo de desarrollo.',
+        'Proceso de evolución continua del software entregado, basado en el análisis de métricas y feedback.',
     },
     {
-      termino: 'OCDE',
+      termino: 'Métrica de calidad',
       significado:
-        'Organización para la Cooperación y el Desarrollo Económico: organización internacional que promueve políticas para mejorar el bienestar económico y social.',
+        'Indicador que mide aspectos como número de errores, cobertura de pruebas y estabilidad del software.',
     },
     {
-      termino: 'PROMETHEE',
+      termino: 'Retrospectiva',
       significado:
-        'Método de análisis multicriterio utilizado para la toma de decisiones que permite la priorización de alternativas.',
+        'Reunión periódica al final de cada Sprint donde el equipo reflexiona sobre lo que funcionó y lo que se debe mejorar.',
     },
     {
-      termino: 'ROI',
+      termino: 'Scrum',
       significado:
-        '<i>Return on Investment</i> - Retorno sobre la Inversión: indicador financiero que mide la rentabilidad de una inversión en relación con su costo.',
+        'Marco de trabajo ágil utilizado para gestionar proyectos complejos, enfocado en entregas incrementales y colaborativas.',
     },
     {
-      termino: 'SaaS',
+      termino: 'Scrum Master',
       significado:
-        '<i>Software as a Service</i> - Software como Servicio: modelo de distribución de software donde el soporte lógico y los datos se alojan en servidores externos.',
+        'Rol en Scrum responsable de eliminar impedimentos, facilitar eventos y promover la mejora continua del equipo.',
     },
     {
-      termino: 'SIC',
+      termino: 'Sprint',
       significado:
-        'Superintendencia de Industria y Comercio: entidad reguladora colombiana encargada de la protección de la propiedad industrial y la competencia.',
+        'Iteración de tiempo fija (generalmente de 1 a 4 semanas) en la que se desarrolla y entrega un incremento del producto.',
     },
     {
-      termino: 'SROI',
+      termino: 'Start-Stop-Continue',
       significado:
-        '<i>Social Return on Investment</i> - Retorno social sobre la inversión: método para medir el valor extrafinanciero generado por una inversión en relación con los recursos invertidos.',
+        'Técnica de retrospectiva que ayuda a identificar prácticas que iniciar, detener o continuar en el próximo Sprint.',
     },
     {
-      termino: '<i>Startup</i>',
+      termino: 'Velocidad del equipo',
       significado:
-        'Empresa emergente que busca desarrollar un modelo de negocio escalable, generalmente basado en tecnología e innovación.',
-    },
-    {
-      termino: 'TIR',
-      significado:
-        'Tasa Interna de Retorno: métrica financiera que representa la rentabilidad promedio anual que genera una inversión.',
-    },
-    {
-      termino: 'VPN',
-      significado:
-        'Valor Presente Neto: indicador financiero que permite determinar la viabilidad de un proyecto mediante el cálculo del valor actual de los flujos futuros.',
+        'Cantidad de trabajo (medido en puntos de historia) que un equipo Scrum puede completar durante un Sprint.',
     },
   ],
-  complementario: [],
 }

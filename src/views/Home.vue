@@ -5,7 +5,7 @@
       .bg-white
         .row.g-0
           //- Columna izquierda con imagen
-          .d-none.d-xl-block.d-xl-flex.mb-4.mb-md-0.col-md-4.col-xl-5.imagen-section
+          .d-none.d-xl-block.d-xl-flex.mb-4.mb-md-0.col-md-4.col-xl-6.imagen-section
             img.img-fluid.h-full(
               src="@/assets/portada/banner.png"
               alt="Estudiante virtual"
@@ -18,11 +18,15 @@
               style="max-width: 672px;"
             )
           //- Columna derecha con información
-          .col-xl-7.info-section
+          .col-xl-6.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La unidad aborda la evaluación de proyectos de investigación e innovación, el emprendimiento de base tecnológica y su impacto social y de mercado. Destaca la importancia de metodologías específicas para medir el impacto, indicadores claves de desempeño y gestión de riesgos. Asimismo, explora el ecosistema de emprendimiento tecnológico en Colombia, los modelos de negocio adaptativos y las fuentes de financiación disponibles. Finalmente, analiza la evaluación de impacto social y sostenibilidad, subrayando la necesidad de enfoques integrales y participativos para maximizar los beneficios en las comunidades y promover el desarrollo sostenible.
+              p.descripcion.mb-4 En los entornos ágiles, la mejora continua es un principio esencial que permite a los equipos adaptarse, aprender y evolucionar constantemente, en sus procesos. Esta unidad ofrece un recorrido práctico por las técnicas de retrospección, el uso estratégico de indicadores ágiles y la implementación de un sistema de feedback continuo, como herramientas clave para la gestión efectiva de equipos de desarrollo. A través de esta unidad, los estudiantes comprenderán cómo las retrospectivas fortalecen la cultura organizacional, elevan la calidad del software y fomentan equipos cohesionados, capaces de responder con eficacia, a los retos de proyectos complejos.
+
+              
+              p #[b ¡Prepárese para liderar la transformación hacia una cultura de mejora constante en la ingeniería de software ágil!]
+
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto
@@ -57,6 +61,7 @@ export default {
 
 <style lang="sass">
 .curso-container
+  background-color: $color-fondo-home
   .container
     @media (min-width: 1400px)
       max-width: 1378px
@@ -68,7 +73,7 @@ export default {
   .home-main-title
     font-size: 18px
     font-weight: bold
-    color: $color-institucional
+    color: $color-acento-contenido
   .home-content
     background-color: white
   .info-section
@@ -99,12 +104,12 @@ export default {
       text-align: center
       display: flex
       .iniciar-btn-text
-        background-color: #15DA7E !important
+        background-color: $color-acento-botones
         padding: 12px 42px 12px 32px
         width: 100%
-        color: #000 !important
+        color: #fff !important
     .icon
-      background-color: $color-sistema-e
+      background-color: #496406
       padding: 0px 20px
       color: #fff
       display: flex
@@ -142,14 +147,14 @@ export default {
 
 .iniciar-btn-container
   .iniciar-btn-text
-    transition: all 0.4s ease-in-out
-    background-color: $color-btn-fondo !important
-    color: $color-btn-texto !important
+    transition: all 0.25s ease-in-out
+    background-color: $color-acento-botones !important
+    color: #0B0A0A !important
   .icon
-    transition: all 0.4s ease-in-out
-    background-color: darken($color-btn-fondo, 20%) !important
+    transition: all 0.25s ease-in-out
+    // background-color: #083E61 !important
+    background-color: #5C2C88 !important
   &:hover
     .icon
-      transform: scale(1.05)
-      cursor: pointer
+      transform: scale(1.06)
 </style>

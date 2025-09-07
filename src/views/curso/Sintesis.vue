@@ -1,80 +1,11 @@
 <template lang="pug">
-.curso-main-container.creditos-vista
-  BannerInterno(subTitulo="SÍNTESIS")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p(data-aos="fade-up").mb-5 La investigación y la innovación son motores esenciales para el desarrollo sostenible, permitiendo generar soluciones que transforman la sociedad y los mercados. Este documento aborda la evaluación de proyectos de investigación e innovación, el emprendimiento de base tecnológica y su impacto social, económico y ambiental. Además, se exploran metodologías claves y casos del ecosistema colombiano, destacando la importancia de enfoques integrales y adaptados al contexto local para maximizar los beneficios y fomentar el progreso en comunidades y sectores estratégicos.
+  .curso-main-container.creditos-vista
+    BannerInterno(subTitulo="SÍNTESIS")
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+      p(data-aos="fade-up") La Unidad 3: Mejora continua y retrospectivas, presenta los conceptos y fundamentos esenciales de los enfoques ágiles aplicados al desarrollo de software, destacando marcos como Scrum, Extreme Programming (XP) y Kanban. Esta unidad permite comprender la evolución desde los modelos tradicionales hacia metodologías más flexibles, centradas en la colaboración, la entrega continua y la adaptación al cambio. Este enfoque ágil capacita a los estudiantes para responder de manera eficiente a las necesidades del cliente y los desafíos del entorno tecnológico actual, promoviendo una gestión dinámica y efectiva de los proyectos de software.
+
       .row.justify-content-center
         .col-lg-12.mb-5
           figure.bg-color-sintesis.p-5.brounded
-            img(src='@/assets/curso/sintesis/sintesis.svg', alt='')
+            img(src='@/assets/curso/sintesis.svg', alt='', data-aos="zoom-in")
 </template>
-<script>
-import BannerInterno from '../../components/plantilla/BannerInterno'
-import Footer from '../../components/plantilla/Footer'
-export default {
-  name: 'Creditos',
-  components: {
-    BannerInterno,
-    Footer,
-  },
-  data: () => ({
-    configTitulos: {
-      liderEquipo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
-      contenidoInstruccional: 'CONTENIDO INSTRUCCIONAL',
-      desarrolloProducto:
-        'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
-      gestoresRepositorio: 'GESTORES DE REPOSITORIO',
-    },
-  }),
-  computed: {
-    creditosData() {
-      return this.$config.creditos
-    },
-    creditosAdicionales() {
-      return this.$config.creditosAdicionales
-    },
-  },
-  methods: {
-    renderText(textObj) {
-      let newText = ''
-      if (Array.isArray(textObj)) {
-        textObj.forEach((texto, index) => {
-          newText += (index ? '<br/>' : '') + texto
-        })
-      } else {
-        newText += textObj
-      }
-      return newText
-    },
-  },
-}
-</script>
-
-<style lang="sass">
-.creditos-vista
-  .tarjeta.credito
-    background-color: $color-sistema-d
-
-.creditos
-  color: $color-sistema-b
-  overflow-x: auto
-
-  &__item
-    min-width: 490px
-
-  p
-    line-height: 1.3em
-    margin-bottom: 0
-    color: $color-sistema-b
-
-  &__titulo
-    font-weight: $base-bold-font-weight
-    background-color: $color-sistema-d
-    padding: 5px 10px
-    border-top-radius: $base-border-radius
-    border-top-left-radius: $base-border-radius
-    border-top-right-radius: $base-border-radius
-  table
-    td, th
-      border-color: $color-sistema-d
-</style>

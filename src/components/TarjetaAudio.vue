@@ -71,18 +71,19 @@ export default {
 </script>
 
 <style lang="sass">
-.bg-btn
-  background-color: #15DA7E !important
-.tarjeta-audio
-  border-color: #15DA7E
-  .tarjeta-audio__input
-    input[type=range]
-      background: rgba(#15DA7E, 0.2)
-      background-image: linear-gradient(#15DA7E, #CFF7E4)
-      &::-webkit-slider-runnable-track
-        background: rgba(#15DA7E, 0.2)
-      &::-webkit-slider-thumb
-        background-color: #15DA7E
-      &::-moz-range-thumb
-        background-color: #15DA7E
+.color-acento-botones
+  .bg-btn
+    background-color: $color-acento-botones !important
+  .tarjeta-audio
+    border-color: $color-acento-botones
+    .tarjeta-audio__input
+      input[type=range]
+        background: rgba($color-acento-botones, 0.2)
+        background-image: linear-gradient($color-acento-botones, $color-acento-botones)
+        &::-webkit-slider-runnable-track
+          background: rgba($color-acento-botones, 0.2)
+        &::-webkit-slider-thumb
+          background-color: $color-acento-botones
+        &::-moz-range-thumb
+          background-color: $color-acento-botones
 </style>
